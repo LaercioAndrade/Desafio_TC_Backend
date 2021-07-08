@@ -1,0 +1,102 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-07-08T11:37:58.520Z",
+    "end": "2021-07-08T11:37:59.401Z",
+    "duration": 881,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7d50892c-1249-4508-b454-ab5137a3c551",
+      "title": "",
+      "fullFile": "cypress/integration/services/Cards/tests/GETCards.spec.js",
+      "file": "cypress/integration/services/Cards/tests/GETCards.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1de53380-36e2-40d4-9c35-95d2cb0d3ab7",
+          "title": "GET Cards",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Embaralhar Cartas",
+              "fullTitle": "GET Cards Embaralhar Cartas",
+              "timedOut": null,
+              "duration": 809,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "GETCards.newCards().should(response => {\n  expect(response.status).to.eq(200);\n  expect(response.body).to.be.not.null;\n});",
+              "err": {},
+              "uuid": "8c7aa856-aca5-42db-af8b-a80f0c0a051e",
+              "parentUUID": "1de53380-36e2-40d4-9c35-95d2cb0d3ab7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8c7aa856-aca5-42db-af8b-a80f0c0a051e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 809,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false
+      },
+      "version": "5.2.0"
+    }
+  }
+}

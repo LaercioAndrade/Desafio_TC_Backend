@@ -1,0 +1,10 @@
+{
+    "baseUrl": "https://deckofcardsapi.com/api/",
+    "video": false,
+
+    "reporter": "mochawesome",
+
+    "reporterOptions": {
+        "overwrite": false
+    }
+}
